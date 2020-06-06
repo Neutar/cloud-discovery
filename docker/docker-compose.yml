@@ -1,0 +1,6 @@
+version: '3.2'
+services:
+  cloud-discovery:
+    image: "cloud-discovery:latest"
+    ports:
+      - "8761:8761"
